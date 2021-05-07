@@ -40,7 +40,11 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]
 
-PROJECT_APPS = []
+PROJECT_APPS = [
+    "members.apps.MembersConfig",
+    "portpolios.apps.PortpoliosConfig",
+    "doc_boards.apps.DocBoardsConfig",
+]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
 
