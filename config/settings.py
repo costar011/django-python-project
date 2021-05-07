@@ -40,10 +40,7 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]
 
-PROJECT_APPS = [
-    "project.apps.ProjectConfig",
-    "members.apps.MembersConfig",
-]
+PROJECT_APPS = []
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
 
