@@ -29,6 +29,11 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+INTRNAL_IPS = [
+    "127.0.0.1",
+]
+
+
 # Application definition
 
 DJANGO_APPS = [
@@ -44,6 +49,8 @@ PROJECT_APPS = [
     "members.apps.MembersConfig",
     "portpolios.apps.PortpoliosConfig",
     "doc_boards.apps.DocBoardsConfig",
+    "tailwind",
+    "fontawesome_5",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
