@@ -5,7 +5,7 @@ from members import models as members_model
 # class 상속받음
 class Command(BaseCommand):
 
-    help = "💙 This Command is Create Many Skills 💙"
+    help = "😆 This Command is Create Many Skills 😆"
 
     def add_arguments(self, parser):
         parser.add_argument(

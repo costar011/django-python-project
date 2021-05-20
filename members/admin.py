@@ -9,7 +9,7 @@ class SkillModel(admin.ModelAdmin):
 
 @admin.register(models.MemberModel)
 class MemberAdmin(admin.ModelAdmin):
-    """Member Admin Definition"""
+    """ Member Admin Definition """
 
     list_display = (
         "name",

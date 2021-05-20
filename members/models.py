@@ -4,7 +4,7 @@ from django.db.models.base import Model
 
 
 class SkillModel(models.Model):
-    """Skill Model Definition"""
+    """ Skill Model Definition """
 
     skill_name = models.CharField(max_length=40)
 
@@ -16,7 +16,7 @@ class SkillModel(models.Model):
 
 
 class MemberModel(models.Model):
-    """Member Model Definition"""
+    """ Member Model Definition """
 
     GENDER_MALE = "Male"
     GENDER_FEMALE = "Female"
