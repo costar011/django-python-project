@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "561e81105c620de0e1a9594e7e0518d2f9c43fc8be17aa2169bba270b7a9b598"
+            "sha256": "5a451b11e395ef9be32e17e5fc4ab9509d529984a848313fa58534e60bf35565"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -85,6 +85,14 @@
             ],
             "index": "pypi",
             "version": "==6.0.0"
+        },
+        "django-fontawesome-5": {
+            "hashes": [
+                "sha256:1be340e795a6a68ebd9ba5d75e26bd72a839515c351786ff45e16b90bf50c3a0",
+                "sha256:4fc4a7f5d0fe6e10d542ac9f1c143ad5e92aa61c6f310ea297c3c26bfc6001dd"
+            ],
+            "index": "pypi",
+            "version": "==1.0.18"
         },
         "django-js-asset": {
             "hashes": [
