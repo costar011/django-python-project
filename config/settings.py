@@ -41,6 +41,10 @@ DJANGO_APPS = [
 ]
 
 PROJECT_APPS = [
+    "members.apps.MembersConfig",
+]
+
+PART_APPS = [
     "tailwind",
     "fontawesome_5",
 ]
